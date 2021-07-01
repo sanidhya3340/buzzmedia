@@ -6,7 +6,7 @@ import Header from '../components/header'
 export default function Dashboard({changed}) {
 
     useEffect(() => {
-        document.title = 'Instagram';
+        document.title = 'BuzzMedia';
     }, [])
 
     const [isDark, setIsDark] = useState(false);
